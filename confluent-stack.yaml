@@ -1,4 +1,4 @@
-version: "2.1"
+version: "3.5"
 
 services:
   zookeeper:
@@ -14,7 +14,7 @@ services:
   kafka:
     image: confluentinc/cp-kafka:5.2.2
     hostname: kafka
-    container_name: kafka-broker
+    container_name: kafka-ce-broker
     depends_on:
       - zookeeper
     ports:
