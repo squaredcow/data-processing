@@ -4,3 +4,6 @@
 # Gradle cache
 .gradle/
 build/
+
+# SendGrid api key
+sendgrid.env
